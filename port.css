@@ -1,0 +1,451 @@
+
+
+
+
+html{
+    background-color: aliceblue;
+    margin-left: 6px;
+    margin-right: 6px;
+    scroll-behavior: smooth;
+    background-image: url("https://res.cloudinary.com/drvbnrepk/image/upload/v1731944869/408956557bb3f2261f0927cf37097a09_atoxnv.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+   
+}
+.nav-bar {
+    text-align: right;
+    background-color: aqua;
+    margin-top: 30px;
+    height: 10vh;
+    place-content: center;
+    padding-right: 10px;
+    margin-top: 5px;
+    position: fixed;  
+   
+  top: 0;           
+  left: 0;          /* Align it to the left of the screen */
+  width: 100%;      /* Ensure the navbar takes full width */
+  z-index: 1000;    /* Ensure the navbar stays above other content */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(69, 65, 65);
+    position: relative;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .nav-link:hover {
+    color: black;
+  }
+  
+header{
+    font-family:'Colonna MT', serif;
+    background-color: rgba(10, 46, 94, 0.603);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 85px;
+    height: 20vh;
+    align-content: center;
+    color: aliceblue;
+}
+.about_section{
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    display: flex;
+    border: 5px black;
+    align-content: center;
+    justify-content: center;
+
+    
+}
+.about-text{
+    font-family:'Centaur', serif;
+    font-weight: 800;
+   
+    font-size:21px;
+}
+.amrakesh{
+    text-align:left;
+    margin-top: 0px;
+    font-family: cursive;
+    
+}
+.passphoto{
+    position: sticky;
+}
+.about-left{
+    place-content: left;
+    height: auto;
+ 
+   
+    
+    
+}
+.about-right{
+    width: 50%;
+    font-weight:400;
+    font-family:'Oleo', sans-serif;
+    align-content: center;
+   font-size: 25px;
+   padding-right: 15px;
+}
+.passphoto{
+    height: 90%;
+    width: 70%;
+}
+.resume-button{
+
+    align-items: right;
+    height: 7vh;
+    width: 18vh;
+    background-color: rgb(3, 123, 150);
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-bottom: 50px;
+    place-content: center;
+}
+.resume-button:hover{
+    box-shadow: 5px 5px 20px black;
+}
+
+.profile-container{
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+   
+}
+.profile-data{
+    height: auto;
+    width: auto;
+    
+    place-content: center;
+
+}
+.profile-pic{
+    height: 80vh;
+    width: 50vh;
+   
+
+}
+
+.main-image{
+    height: 100%;
+    width: 125%;
+}
+.text{
+   
+    place-content: center;
+    text-align: center;
+    font-family: cursive;4
+    font-size: 25px;
+    color: white;
+}
+.skill-head{
+    
+    font-style: bold;
+    color:rgb(255, 254, 254);
+    font-size: 26px;
+    font-weight: bold;
+    stroke: black;
+    margin-left: 25px;
+}
+
+.skills-section{
+    background-color: rgba(0, 255, 255, 0.504);
+    height: auto;
+    width: auto;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    row-gap: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    align-content: center;
+    justify-content: center;
+}
+.skill-containers{
+  
+    justify-content: space-between;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    height: 4.5cm;
+    font-family: cursive;
+    width: 8cm;
+    background-color:rgba(255, 255, 255, 0.825) ;
+    background-size: cover;
+    box-shadow: 3px 3px 3px black;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 3%;
+    border-radius: 15px;
+}
+.skill-containers:hover{
+    
+    cursor: pointer;
+    box-shadow: 5px 5px 20px black;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+
+  
+}
+
+.container{
+    height: 25vh;
+    width: 25vh;
+    border: 5px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.container:hover{
+    box-shadow: 5px 5px 20px black;
+}
+.flex-container{
+    
+    align-items: center;
+    background-color: #5886f17d;
+    border-radius: 8px;
+    width: 70%;
+    height: auto;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap; 
+   justify-content:space-around;
+   
+}
+.inside_container{
+    background-color: aqua;
+    background-position: center;
+    height: 106px;
+    width: 106px;
+    border: solid black 8px; 
+    border-radius: 75px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 28px;
+    cursor:pointer ;
+    pointer-events: fill;
+    
+
+}
+.inside_container:hover{
+    box-shadow: 5px 5px 20px black;
+    
+    background-color: rgb(255, 255, 255);
+
+
+    
+    
+}
+.service-head{
+    font-style: bold;
+    color:rgb(255, 254, 254);
+    font-size: 26px;
+    font-weight: bold;
+    stroke: black;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.service-name{
+    font-weight: 600;
+    color:black;
+    font-size: 16px;
+    stroke: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.footer-section{
+    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.911);
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    
+    
+}
+.footer-text{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 6px;
+}
+.logos{
+    justify-content: space-between 1%;
+}
+.fot-link{
+    margin-left: 5px;
+
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+.contact{ font-style: bold;
+    color: #000000; /* White */
+text-shadow: 1px 1px 3px #ffffff; 
+    font-size: 26px;
+    font-weight: bold;
+    stroke: black;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+
+.contact_container{
+    display: flex;
+    flex-wrap: wrap;
+    
+        background-color: rgb(45, 44, 44);
+    height: auto;
+    justify-content: center;    
+}
+
+.send_message{
+    height: 410px;
+    width: 380px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: #1a1b1b;
+    border-radius: 20px;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 8px; 
+}
+.head-message{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+input{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    justify-content: center;
+    margin-left: 60px;
+    border: 3px solid rgb(244, 240, 240);
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 25px;
+    width: 218px;
+    border-radius: 4px;
+
+}
+button{
+    color: rgb(255, 254, 254);
+    background-color: rgb(0, 76, 255);
+    height: 25px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 120px;
+    border: #262828;
+    block-size: 36px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+button:hover{
+    box-shadow: 3px 3px 5px rgb(83, 86, 111);
+    cursor: pointer;
+}
+.message-input{
+    height: 60px;
+}
+input:hover{
+cursor: pointer;
+box-shadow:  2px 2px 2px  rgb(51, 87, 16);
+}
+.social_media{
+    height: 380px;
+    width: 360px;
+    border: 5px solid rgb(10, 10, 10);
+    background-color: #181919;
+    color: white;
+    border-radius: 20px;
+    backdrop-filter:initial blur(30px);  
+    padding-left: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 10px;
+    place-content: center;
+}
+.address_line{
+    display: flex;
+    flex-wrap: wrap;
+}
+.location_name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+
+}
+.up-button{
+   
+    margin-left: 95%;
+    font-weight: bold;
+    border: 5px black;
+    
+    position: fixed;
+}
+.up-button:hover{
+    box-shadow: 5px 5px 20px blueviolet;
+}
+.gototop{
+    position:fixed;
+    
+    background: rgb(206, 206, 206);
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 125px;
+    font-size: 22px;
+
+}
